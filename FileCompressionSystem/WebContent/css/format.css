@@ -1,0 +1,8 @@
+.center-block {
+  margin: auto;
+  display: block;
+}
+.parent {
+  display: grid;
+  place-items: center;
+}

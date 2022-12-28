@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="css/format.css">
+<style>
+body {
+  background-image: url('images/SeaShore.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<title>File Compression System</title>
+</head>
+<body>
+<header style="color:#FF8C00;font-family:'Courier New'">
+<h1>Deewana's File Compression System Using Huffman Algorithm</h1>
+</header>
+
+
+<form class="parent" action="UploadFile" method="post" enctype="multipart/form-data">
+<h2>Please select the file :</h2> 
+<input type="file" name="file"/>
+<br>
+<input type="submit" value="Upload"/>
+</form>
+
+<div class="parent">
+<h2>Options available</h2>
+<form action="Compressor" method="get">
+<button name="compress">Compress</button>
+</form>
+<br>
+<form action="Decompressor" method="get">
+<button name="decompress">De-Compress</button>
+</form>
+</div>
+
+
+<footer style="background-color:black;color:white;font-family:'Courier New';bottom:0;position:absolute;">
+By Byomkesh Choudhary  &copy;
+</footer>
+</body>
+</html>
